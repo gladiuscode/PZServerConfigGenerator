@@ -1,0 +1,20 @@
+{
+  "name": "ConfigMaker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev:build": "yarn tsc -w",
+    "dev:run": "yarn nodemon ./dist"
+  },
+  "dependencies": {
+    "axios": "^1.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.20",
+    "prettier": "^2.8.1",
+    "typescript": "^4.9.4"
+  }
+}
